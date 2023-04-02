@@ -9,11 +9,13 @@ alert(product);
 
 let age = 10;
 let up = 2;
-let result = age + up;
-alert(result);
+let f = age + up;
+alert(f);
 
 let b = 10;
 let c = 2;
 let d = b / c;
 alert(d);
 
+let result = 2**5;
+alert(result);
