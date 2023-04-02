@@ -7,9 +7,9 @@ alert(v);
 let product = "Брендон Айком";
 alert(product);
 
-let age = 10;
+let j = 10;
 let up = 2;
-let f = age + up;
+let f = j + up;
 alert(f);
 
 let w = 10;
@@ -33,3 +33,6 @@ num = num / 3;
 num = num + 1;
 num = num - 1;
 alert(num);
+
+let age = prompt("Сколько вам лет?");
+alert(age);
