@@ -1,4 +1,4 @@
-let a = 10;
+let g = 10;
 alert (20);
 
 let v = 2007;
@@ -12,10 +12,15 @@ let up = 2;
 let f = age + up;
 alert(f);
 
-let b = 10;
+let w = 10;
 let c = 2;
-let d = b / c;
+let d = w / c;
 alert(d);
 
 let result = 2**5;
 alert(result);
+
+let a = 9;
+let b = 2;
+let s = 9 / 2;
+alert(s);
