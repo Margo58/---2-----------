@@ -1,2 +1,2 @@
 a = 10;
-alert (a);
+alert (20);
