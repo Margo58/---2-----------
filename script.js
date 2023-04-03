@@ -36,3 +36,7 @@ alert(num);
 
 let age = prompt("Сколько вам лет?");
 alert(age);
+
+let userName = Margo;
+let userAge = 24;
+let userisAdmin = false;
