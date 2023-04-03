@@ -37,7 +37,7 @@ alert(num);
 let age = prompt("Сколько вам лет?");
 alert(age);
 
-let user [city of residence] = {
+let user = {
     name: 'Margo',
     number: 24,
     Boolean(""); // false 
