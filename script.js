@@ -39,6 +39,6 @@ alert(age);
 
 let user [city of residence] = {
     name: 'Margo',
-    age: 24,
+    number: 24,
     Boolean(""); // false 
 }
