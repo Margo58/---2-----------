@@ -48,3 +48,4 @@ alert(user.info);
 
 let name = prompt(`Как вас зовут?`)
 document.write("Привет,", name, " !");
+
