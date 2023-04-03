@@ -45,3 +45,6 @@ let user = {
 let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`, `number`);
 console.log(user[`info`]); // Margo (если ввели `name`) 
 alert(user.info);
+
+let name = prompt(`Как вас зовут?`)
+document.write("Привет,", name, " !");
