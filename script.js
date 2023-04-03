@@ -38,7 +38,10 @@ let age = prompt("Сколько вам лет?");
 alert(age);
 
 let user = {
-    name: 'Margo',
+    name: `Margo`,
     number: 24,
-    Boolean(""); // false 
+    isAdmin: false,
 }
+let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`, `number`);
+console.log(user[`info`]); // Margo (если ввели `name`) 
+alert(user.info);
