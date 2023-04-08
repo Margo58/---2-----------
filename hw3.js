@@ -23,3 +23,8 @@ console.log('Верно') : console.log('Неверно');
 const p = 10;
 p >= 0 && p <= 10 ?
 console.log('Верно') : console.log('Неверно');
+
+const d = 45;
+const e = 130;
+d <= e || d >= e ?
+console.log('Верно') : console.log('Неверно');
