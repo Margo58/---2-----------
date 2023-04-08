@@ -28,3 +28,7 @@ const d = 45;
 const e = 130;
 d <= e || d >= e ?
 console.log('Верно') : console.log('Неверно');
+
+let a = 2;
+let b = 3;
+alert(a + b);
