@@ -59,5 +59,15 @@ switch (monthNumbe) {
     default:
         console.log('Такого числа нет');
         break;
- 
+}
+
+let someNumber = prompt('Пожалуйста введие любое чило');
+if (isNaN(someNumber)) {
+    alert('это не число');
+} else {
+    if ((someNumber % 2) === 0) {
+        alert('четное число');
+    } else {
+        alert('число не четное');
+    }
 }
