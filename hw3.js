@@ -32,3 +32,32 @@ console.log('Верно') : console.log('Неверно');
 let a = 2;
 let b = 3;
 alert(a + b);
+
+let monthNumbe = Number(prompt('Введите число от 1 до 12'));
+
+switch (monthNumbe) {
+    case 12 :
+    case 1:
+    case 2:
+        console.log('Зима')
+        break;
+    case 3:
+    case 4:
+    case 5:
+        console.log('Осень')
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log('Лето')
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log('Весна')
+        break;
+    default:
+        console.log('Такого числа нет');
+        break;
+ 
+}
