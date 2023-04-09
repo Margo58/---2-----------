@@ -71,3 +71,14 @@ if (isNaN(someNumber)) {
         alert('число не четное');
     }
 }
+
+let clientOS = Number(prompt('Пожалуйста, укажите 0, если вы пользователь IOS, и 1, если вы пользователь Android'));
+
+if (clientOS === 0) {
+    console.log('Установите версию приложения для iOS по ссылке');
+} else if (clientOS === 1)  {
+    console.log('Установите версию приложения для Android по ссылке');
+} else {
+    console.log('Извините, но мы не работаем с другими OS, кроме IOS или Android'); 
+}
+
