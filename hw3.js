@@ -2,7 +2,7 @@ let password = '444';
 let age = prompt('Введите пароль');
 
 if (age >= 444) {
-    password = 'Пароль введен верно';
+    password === 'Пароль введен верно';
 } else {
     password = 'Пароль введен неправильно';
 }
@@ -29,8 +29,8 @@ const e = 130;
 d <= e || d >= e ?
 console.log('Верно') : console.log('Неверно');
 
-let a = 2;
-let b = 3;
+let a = Number ('2');
+let b = Number ('3');
 alert(a + b);
 
 let monthNumbe = Number(prompt('Введите число от 1 до 12'));
