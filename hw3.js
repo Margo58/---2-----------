@@ -4,7 +4,7 @@ let age = prompt('Введите пароль');
 if (age >= 444) {
     password === 'Пароль введен верно';
 } else {
-    password = 'Пароль введен неправильно';
+    password === 'Пароль введен неправильно';
 }
 alert(password);
 
@@ -94,4 +94,3 @@ if (clientOS === 0 && currentYear >= 2015) {
         console.log('Версии Android такого года нет, потому что первый Android был выпущен в 2008 году');
 }
 }
-
